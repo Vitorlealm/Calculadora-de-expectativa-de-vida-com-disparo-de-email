@@ -1,0 +1,85 @@
+body{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F5F5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mainContainer{
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    background-color: rgb(224, 224, 224);
+    border-radius: 10px;
+}
+form input{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: chocolate 3px solid;
+}
+
+select{
+    margin-top: 15px;
+}
+.headEscolaridade{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    background-color: chocolate;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+.optEscolaridade{
+    display: flex;
+    background-color: white;
+    width: 99.7%;
+    height: 200px;
+    border: chocolate 3px solid;
+    border-radius: 10px;
+}
+.leftEsc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.rightEsc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.headHabits{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    background-color: chocolate;
+    justify-content: center;
+    border-radius: 10px;
+}
+.optHabits{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 260px;
+    border: chocolate 2px solid;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.optHabits label{
+    margin-left: 20px;
+}
+.optHabits input{
+    
+    margin: 0;
+    padding: 0 auto 0 100px;
+}

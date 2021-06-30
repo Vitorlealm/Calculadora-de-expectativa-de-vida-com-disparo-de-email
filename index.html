@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Expectativa de vida</title>
+</head>
+<body>
+    <div class="mainContainer">
+        <form id="myForm" action="http://localhost:8000/a" method="POST">
+            <label for="nomeTxt">Nome</label>
+           <input type="text" id="nomeTxt" name="nome">
+           <label for="email">email</label>
+           <input type="email" id="email" name="mail">
+           <label for="sexo">Sexo</label>
+           <select name="sexo" id="Sexo">
+               <option value="naoInformado">Prefiro não informar</option>
+               <option value="Feminino">Feminino</option>
+               <option value="Masculino">Masculino</option>
+           </select>
+           <div class="headEscolaridade">
+               <h1>Escolaridade</h1>
+           </div>
+           <div class="optEscolaridade">
+               <div class="leftEsc">
+                   <label for="EnsFund" style="padding: 10px">Ensino Fundamental completo ou não</label>
+                   <input name="formacao" value="EnsinoFundamental" type="radio" id="EnsFund">
+                   <label for="posGrad" style="padding: 10px">Com pós graduação completa ou em curso</label>
+                   <input name="formacao"  value="posGrad"type="radio" id="posGrad">
+               </div>
+               <div class="rightEsc">
+                   <label for="EnsMedio" style="padding: 10px;">Ensino Médio</label>
+                   <input name="formacao" value="EnsinoMedio" type="radio" id="EnsMedio">
+                   <label for="EnsSup" style="padding: 10px">Ensino Superior completo</label>
+                   <input name="formacao" value="EnsinoSuperior" type="radio" id="EnsSup">
+            </div>>
+           </div>
+           <div class="headHabits">
+            <h1>Um pouco mais sobre você</h1>
+           </div>
+           <div class="optHabits">
+               <br>
+               <label for="fumante">Fui/sou fumante por mais de 5 anos</label>
+               <input type="checkbox" id="fumante" name="fumante" >
+               <label for="atividade">Faço atividade fisia 3x por semana a mais de uma ano</label>
+               <input type="checkbox" id="atividade" name="atividade" >
+               <label for="legumes">Minha dieta diaria inclui legumes</label>
+               <input type="checkbox" id="legumes" name="legumes">
+               <label for="frutas">Minha dieta diaria inclui frutas</label>
+               <input type="checkbox" id="frutas" name="frutas">
+               <label for="diabetes">Sou diabético</label>
+               <input type="checkbox" id="diabetes" name="diabetes">
+               <label for="estresse">Tenho uma rotina estressante</label>
+               <input type="checkbox" id="estresse" name="estresse">
+               <label for="otimista">Me considero uma pessoa otimista</label>
+               <input type="checkbox" id="otimista" name="otimista">
+           </div>
+           <label for="alcoolicos" style="margin-top: 15px;">Quantidade de doses (copos/ taças/ latinhas) de bebida alcoolica por semana:</label>
+           <input type="text" id="alcoolicos" name="bebida" value="0">
+           <button type="submit">Receber resultados via email</button>
+    </div>
+        </form>
+
+
+    </div>
+</body>
+</html>
