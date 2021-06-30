@@ -12,8 +12,6 @@ Aqui seguem algumas instruções para colocar o projeto em operação. Vamos com
 
 5 - Se tudo ocorrer como esperado, você receberá no seu email a sua expectativa de vida e seus dados serão salvos na pasta "mySubmits".
 
-Desde já sou muito grato pela oportunidade!
-
 
 
 *** QUALQUER DUVIDA OU PROBLEMA FAVOR ENTRAR EM CONTATO PELO EMAIL OU (32) 985015459;) ***
